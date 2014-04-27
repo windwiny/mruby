@@ -64,4 +64,20 @@ MRuby::GemBox.new do |conf|
 
   # Generate mruby command
   conf.gem :core => "mruby-bin-mruby"
+
+  
+  #conf.gem :git => 'https://github.com/mattn/mruby-onig-regexp.git', :branch => 'master'
+  conf.gem :git => 'https://github.com/iij/mruby-regexp-pcre.git', :branch => 'master'
+
+  conf.gem :git => 'git@github.com:iij/mruby-io.git', :branch => 'master'
+  conf.gem :git => 'git@github.com:iij/mruby-dir.git', :branch => 'master'
+  conf.gem :git => 'git@github.com:iij/mruby-tempfile.git', :branch => 'master'
+  conf.gem :git => 'https://github.com/iij/mruby-require.git', :branch => 'master'
+
+  conf.gem :git => 'https://github.com/iij/mruby-digest.git', :branch => 'master'
+  conf.gem :git => 'https://github.com/mattn/mruby-json.git', :branch => 'master'
+  conf.gem :git => 'https://github.com/iij/mruby-pack.git', :branch => 'master'
+  conf.gem :git => 'https://github.com/iij/mruby-mtest.git', :branch => 'master'
+  #conf.gem :git => 'https://github.com/viking/mruby-zlib.git', :branch => 'master'
+  #conf.gem :git => 'https://github.com/h2so5/mruby-tinyxml2.git', :branch => 'master'
 end
