@@ -18,3 +18,7 @@ cscope.out
 /bin
 /build
 /lib
+/nss*
+/mmm
+/pk*
+/test/*.mrb

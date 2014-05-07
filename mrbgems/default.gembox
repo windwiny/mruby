@@ -70,16 +70,18 @@ MRuby::GemBox.new do |conf|
 
   # Use extensional Kernel module
   conf.gem :core => "mruby-kernel-ext"
+
+  conf.gem :git => 'https://github.com/mattn/mruby-sharedlib.git', :branch => 'master'
   
   #conf.gem :git => 'https://github.com/mattn/mruby-onig-regexp.git', :branch => 'master'
-  conf.gem :git => 'https://github.com/iij/mruby-regexp-pcre.git', :branch => 'master'
+  #  conf.gem :git => 'https://github.com/iij/mruby-regexp-pcre.git', :branch => 'master'
 
   conf.gem :git => 'git@github.com:iij/mruby-io.git', :branch => 'master'
   conf.gem :git => 'git@github.com:iij/mruby-dir.git', :branch => 'master'
   conf.gem :git => 'git@github.com:iij/mruby-tempfile.git', :branch => 'master'
   conf.gem :git => 'https://github.com/iij/mruby-require.git', :branch => 'master'
 
-  conf.gem :git => 'https://github.com/iij/mruby-digest.git', :branch => 'master'
+  #  conf.gem :git => 'https://github.com/iij/mruby-digest.git', :branch => 'master'
   conf.gem :git => 'https://github.com/mattn/mruby-json.git', :branch => 'master'
   conf.gem :git => 'https://github.com/iij/mruby-pack.git', :branch => 'master'
   conf.gem :git => 'https://github.com/iij/mruby-mtest.git', :branch => 'master'
